@@ -39,28 +39,50 @@ MongoDB integration for data persistence
 📦 Installation & Setup Instructions
 Follow the steps below to run this project locally after cloning from GitHub.
 1️⃣ Clone the Repository
+
 git clone https://github.com/yadnyesh-28/hrms_mern
+
 cd hrms-mern-stack
+
 2️⃣ Backend Setup
+
 Navigate to the backend folder:
+
 cd backend
+
 Install dependencies:
+
 npm install
+
 Create a .env file in the backend directory and add the following:
+
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
+
 Start the backend server:
+
 npm start
+
 Backend will run on:
+
 http://localhost:5000
+
 3️⃣ Frontend Setup
+
 Open a new terminal and navigate to the frontend folder:
+
 cd frontend/myapp
+
 Install dependencies:
+
 npm install
+
 Start the frontend application:
+
 npm start
+
 Frontend will run on:
+
 http://localhost:3000
 ------------------------------
