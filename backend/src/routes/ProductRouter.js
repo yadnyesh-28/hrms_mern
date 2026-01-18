@@ -1,0 +1,17 @@
+const { ensureAuthenticated } = require('../middleware/AuthMiddleware');
+
+const router = require('express').Router();
+
+
+
+
+router.get('/',ensureAuthenticated, (req,res) => {
+    res.status(200).json([
+        {
+            name: 'mobile', price: 20000
+        }, {
+            name: 'tv', price: 40000
+        }
+    ])
+})
+module.exports = router;
